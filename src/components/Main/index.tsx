@@ -1,7 +1,7 @@
 const Main = () => (
-  <ul>
+  <main>
     <h1>Advanced React</h1>
-  </ul>
+  </main>
 );
 
 export default Main;
