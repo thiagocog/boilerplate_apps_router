@@ -1,7 +1,7 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+'use client';
+import styled from 'styled-components';
 
-exports[`<Main /> should render the heading 1`] = `
-.c0 {
+export const Wrapper = styled.main`
   background-color: #06092b;
   color: #ffffff;
   width: 100%;
@@ -12,13 +12,4 @@ exports[`<Main /> should render the heading 1`] = `
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-<main
-  class="c0"
->
-  <h1>
-    Advanced React
-  </h1>
-</main>
 `;
